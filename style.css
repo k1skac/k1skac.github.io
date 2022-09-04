@@ -1,0 +1,187 @@
+.nav {
+  display: flex;
+  background-color: black;
+  width: 70%;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Abril Fatface";
+  font-weight: 100;
+}
+
+header{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 70%; 
+  
+}
+img{
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+}
+.header1{
+    position: absolute;
+    top: 260px;
+    left: 430px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+    font-family: 'Abril Fatface';
+}
+.header2{
+    position: absolute;
+    top: 300px;
+    left: 430px;
+    font-weight: bold;
+    font-size: 60px;
+    color: #222;
+    font-family: 'Abril Fatface';
+}
+
+.firstsection{
+    
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    padding: 25px;
+    line-height: 1.5;
+    flex-grow: 1;
+    flex-flow: 1;
+    flex-basis: 100%;
+
+}
+.skills{
+  flex-basis: 100%;
+}
+.firstsection li{
+    list-style-type: square;
+    
+}
+blockquote{
+    display: flex;
+    background: #222;
+    color: white;
+    font-size: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+    height: 400px;
+    font-family: 'Abril Fatface';
+    
+    /*margin-left: 280px;*/
+       
+  }
+  blockquote::before{
+    content: '”';
+    transform: rotateY(0.8turn);
+    transform: scale(1) translate(-100%, -100%);
+     color: white;
+    font-size: 80px;
+     font-family: "Abril Fatface"
+  }
+.achievements{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex-grow: 1;
+  
+  width: 70%;
+
+}
+.flex1{
+  display: flex;
+}
+.experience{
+  display: flex;
+}
+.training{
+  display: flex;
+  
+  
+}
+
+main{
+    
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+h2{
+    letter-spacing: 1px;
+    font-family: 'Merriweather';
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+h3{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    }
+p{
+        font-family: 'Josefin Sans';
+        font-size: 15px;
+        padding: 5px;
+        line-height: 1.5;
+              
+    }
+
+h4{
+        margin-top: 0px;
+        font-size: 18px;
+      }
+li{
+        list-style-type: square;
+        margin-bottom: 10px;
+        font-family: 'Josefin Sans';
+      }
+#height{
+  height: 700px;
+}
+.topborder {
+        display: flex;
+        margin-top: 40px;
+        border-top: 3px solid black;
+        padding-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        
+      }
+.flex{
+        display: flex;
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        border: 1px solid lightgrey;
+        border-radius: 30px;
+        width: 200px;
+        height: 50px;
+        align-items: center;
+        justify-content: space-around;
+    }
+#logo{
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color: #222;
+        font-style: italic;
+    }
+#trademark{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif; 
+}
