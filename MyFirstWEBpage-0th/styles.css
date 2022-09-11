@@ -1,0 +1,58 @@
+.cardholder{
+    display: flex;
+    background-color: #333333;
+    height: 50px;
+    
+    justify-content: flex-end;
+    position: relative;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    top: 7px;
+    left: 100px;
+}
+a {
+    color:  #ff0099;
+    padding: 20px;
+    font-weight: bold;
+    
+}
+#margo {
+    margin-right: 100px;
+}
+h1{
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Consolas, monaco, monospace';
+}
+.aboutme h2{
+    color: #ff0099;
+    font-size: 32px;
+}
+.aboutme{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.middle{
+    margin: 50px;
+    font-size: 24px;
+    font-family: consolas;
+    text-align: center;
+
+}
+dt{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.list{
+    padding: 10px;
+    line-height: 30px;
+    font-family: consolas;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
